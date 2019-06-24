@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.pbd_project2">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/planet"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UPloadImage1.MainActivity" />
+        <activity android:name=".UPloadImage1.ShowImagesActivity" />
+        <activity android:name=".Dashboard.HomepageActivity" />
+        <activity android:name=".SweetFood.SweetFoodActivity" />
+        <activity android:name=".SweetFood.ShoweSweetActivity" />
+        <activity android:name=".DrinksImage.AddDrinksActivity" />
+        <activity android:name=".DrinksImage.ShowDrinksActivity" />
+        <activity android:name=".Products.AddProductssActivity" />
+        <activity android:name=".Products.ShowProuductsActivity" />
+        <activity android:name=".Diseases.DiseasesActivity" />
+        <activity android:name=".Diseases.DiseasesListActivity" />
+        <activity android:name=".Diseases.UDiseasesListActivity" />
+        <activity android:name=".Clinic.ClinicActivity" />
+        <activity android:name=".Clinic.ClinicListActivity" />
+        <activity android:name=".Admins.AdminListActivity" />
+        <activity android:name=".Admins.AdminsActivity" />
+        <activity android:name=".Restaurant.RestaurantListActivity" />
+        <activity android:name=".Restaurant.RestaurantActivity" />
+        <activity android:name=".Restaurant.URestaurantListActivity" />
+        <activity android:name=".Ingrediant.ingrediantActivity" />
+        <activity android:name=".Ingrediant.IngrediantListActivity" />
+        <activity android:name=".Ingrediant.UIngrediantListActivity" />
+        <activity android:name=".FeedBack.FeedbackActivity" />
+        <activity android:name=".FeedBack.UFeedbackListActivity" />
+        <activity android:name=".Tips.TipsActivity" />
+        <activity android:name=".My_Dashboard.MyHomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".My_Dashboard.LayoutActivity" />
+        <activity android:name=".My_Dashboard.AdminLayoutActivity" />
+        <activity android:name=".LegumesActivity" />
+        <activity android:name=".LegumesListActivity" />
+        <activity android:name=".ULegumesListActivity" />
+
+        <!-- My Pages -->
+        <activity android:name=".Visitor.Plans.CerealsAndPulsesProductsActivity" />
+        <activity android:name=".Visitor.Plans.FruitsProductsActivity" />
+        <activity android:name=".Visitor.Plans.Insert" />
+        <activity android:name=".Visitor.Plans.MainPlanActivity" />
+        <activity android:name=".Visitor.Plans.VegetablesProductsActivity" />
+        <activity android:name=".Visitor.Posts.MainPostActivity" />
+        <activity android:name=".Visitor.Posts.showComments" />
+        <activity android:name=".Visitor.Posts.showPostsActivity" />
+        <activity android:name=".Visitor.Plans.MainCreatingPlanActivity" />
+        <activity android:name=".Visitor.History.ShowHistoryActivity" />
+        <activity android:name=".Visitor.Plans.Meals.MealsActivity" />
+        <activity android:name=".Visitor.Plans.Meals.Plan1.ClassifyMealsActivityPlan1" />
+        <activity android:name=".Visitor.Plans.Meals.Plan1.BreakFastActivityPlan1" />
+        <activity android:name=".Visitor.Plans.Meals.Plan1.LunchActivityPlan1" />
+        <activity android:name=".Visitor.Plans.Meals.Plan1.DinnerActivityPlan1" />
+        <activity android:name=".Visitor.Plans.Meals.Plan2.ClassifyMealsActivityPlan2" />
+        <activity android:name=".Visitor.Plans.Meals.Plan2.BreakFastActivityPlan2" />
+        <activity android:name=".Visitor.Plans.Meals.Plan2.DinnerActivityPlan2" />
+        <activity android:name=".Visitor.Plans.Meals.Plan2.LunchActivityPlan2" />
+        <activity android:name=".Visitor.MealsWithAvailableComponents.mealsWithAvailableComponentActivity" />
+        <activity android:name=".Visitor.MealsWithAvailableComponents.ResultOfAvailableComponentsActivity" />
+        <activity android:name=".Main.LoginActivity" />
+        <activity android:name=".Main.SignUpActivity" />
+        <activity android:name=".Visitor.GetCloseClinicActivity"></activity>
+    </application>
+
+</manifest>

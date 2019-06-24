@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp2"
+        android:layout_below="@id/comp1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp3"
+        android:layout_below="@+id/comp2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp4"
+        android:layout_below="@+id/comp3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp5"
+        android:layout_below="@+id/comp4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/comp6"
+        android:layout_below="@+id/comp5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comp6"
+        android:text="Total Colories : "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:id="@+id/header"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comp6"
+        android:layout_toRightOf="@id/header"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/total"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/header"
+        android:background="@color/Red"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

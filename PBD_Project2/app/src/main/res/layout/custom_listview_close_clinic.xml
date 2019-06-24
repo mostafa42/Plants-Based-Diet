@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="The Nearest Clinic Is "
+        android:textSize="18dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:id="@+id/header2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/nearestclinic"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/Red"
+        android:layout_below="@+id/nearestclinic"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,233 @@
+{
+  "project_info": {
+    "project_number": "14954715780",
+    "firebase_url": "https://myapplication9-90183.firebaseio.com",
+    "project_id": "myapplication9-90183",
+    "storage_bucket": "myapplication9-90183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:1ffeb806d2590eb0",
+        "android_client_info": {
+          "package_name": "com.example.asus.pbd_project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-mbn2or797upurjg4lbcqifc1tnptenq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.pbd_project2",
+            "certificate_hash": "ef706ba8254d8e1baeee66e00b03061b58972b63"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:3ef4cc4a064a73d6",
+        "android_client_info": {
+          "package_name": "com.example.mostafa.gppbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-9rhhcg6pqn5grvs6v2grmm6t6qs4t176.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mostafa.gppbd",
+            "certificate_hash": "ef706ba8254d8e1baeee66e00b03061b58972b63"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:a1fcb765a32937c6",
+        "android_client_info": {
+          "package_name": "com.example.mostafa.gpteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-86uraadcrnlihdm7rq6uqptsn7ur9uus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mostafa.gpteam",
+            "certificate_hash": "406fbe8126d5fec514182adf3693234ddad658bc"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:8fea53f38d0d062e",
+        "android_client_info": {
+          "package_name": "com.example.mostafa.mostafaandnairaandomnia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-2b29d4j0r0a4rgcj0rrus747pfq5onrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mostafa.mostafaandnairaandomnia",
+            "certificate_hash": "ef706ba8254d8e1baeee66e00b03061b58972b63"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:85291a868902651e",
+        "android_client_info": {
+          "package_name": "com.example.mostafa.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-m7g63favgvio0lu8d3t86uunb7cfr7er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mostafa.myapplication",
+            "certificate_hash": "406fbe8126d5fec514182adf3693234ddad658bc"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14954715780:android:10a5ec5665fc139e",
+        "android_client_info": {
+          "package_name": "com.example.mostafa.program"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14954715780-8mervb17vm4lsb2kgs8t90uup1slpobt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mostafa.program",
+            "certificate_hash": "406fbe8126d5fec514182adf3693234ddad658bc"
+          }
+        },
+        {
+          "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH48_JxzJBXScGAmAJt6KsCsuhKPUlHEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14954715780-h1h8shmq6jvg5u7rkcsgarhuaqfsbhhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_plan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back5"
+    tools:context="com.example.asus.pbd_project2.Visitor.Plans.MainPlanActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/male_fmale_title"
+        android:text="Gender :"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/backgroundcolor"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/male_fmale_title"
+        android:orientation="horizontal"
+        android:id="@+id/choose_male_fmale">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@color/backgroundcolor"
+            android:id="@+id/male"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Fe-Male"
+            android:id="@+id/fmale"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_male_fmale"
+        android:text="Weight [kg]"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/backgroundcolor"
+        android:id="@+id/weight_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/choose_male_fmale"
+        android:layout_toRightOf="@+id/weight_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:background="@color/postBackground"
+        android:id="@+id/weight_edit_text"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight_title"
+        android:text="length [cm]"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/backgroundcolor"
+        android:id="@+id/length_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/weight_edit_text"
+        android:layout_toRightOf="@+id/length_title"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        android:background="@color/postBackground"
+        android:id="@+id/length_edit_text"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/length_title"
+        android:text="Age"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/backgroundcolor"
+        android:id="@+id/age_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/length_edit_text"
+        android:layout_toRightOf="@+id/age_title"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:background="@color/postBackground"
+        android:id="@+id/age_edit_text"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age_title"
+        android:text="backgroundcolor"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/backgroundcolor"
+        android:id="@+id/active_title"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/postBackground"
+        android:layout_below="@+id/age_edit_text"
+        android:layout_toRightOf="@id/active_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:entries="@array/active"
+        android:textAlignment="center"
+        android:id="@+id/choose_active"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pink2"
+        android:layout_below="@+id/choose_active"
+        android:text="Calc Colories Only"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/backgroundcolor"
+        android:id="@+id/calc_only"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/calc_only"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:id="@+id/result"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_active"
+        android:text="Make Plan"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/calc_only"
+        android:textSize="17dp"
+        android:background="@color/zety2"
+        android:textColor="@color/backgroundcolor"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/go_to_make_plan"/>
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@+id/textViewShow"
+android:layout_marginTop="20dp"
+android:layout_below="@id/result"
+        android:textColor="@color/backgroundcolor"
+        android:background="@color/pink2"
+        android:drawableLeft="@drawable/ic_logout"
+        android:textAllCaps="false"
+        android:onClick="Logout"/>
+
+</RelativeLayout>

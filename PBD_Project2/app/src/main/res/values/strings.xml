@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">PBD_Project2</string>
+
+    <string name="button_top">TOP</string>
+    <string name="button_start">START</string>
+    <string name="button_end">END</string>
+    <string name="button_bottom">BOTTOM</string>
+
+    <string name="button_0_DP">0 DP</string>
+    <string name="button_4_DP">4 DP</string>
+    <string name="button_8_DP">8 DP</string>
+    <string name="button_16_DP">16 DP</string>
+    <string name="button_32_DP">32 DP</string>
+
+
+    <!-- Active or not -->
+    <string-array name="active">
+        <item></item>
+        <item>low</item>
+        <item>mid</item>
+        <item>hight</item>
+    </string-array>
+
+
+    <string-array name="components">
+        <item>1 cup of skimmed soy milk</item>
+        <item>oat flakes</item>
+        <item>chopped apple fruit</item>
+        <item>tablespoon chopped</item>
+        <item>walnuts</item>
+        <item>cup of free creamy Greek milk</item>
+        <item>half a cup of breakfast cereal</item>
+        <item>a quarter cup of berries</item>
+        <item>"A slice of roasted wheats bread"</item>
+        <item>"a spoon of peanut butter"</item>
+        <item>"banana fruit"</item>
+        <item>"A slice of whole wheat bread "</item>
+        <item>"quarter medium mashed"</item>
+        <item>"large egg plus a quarter teaspoon of olive oil"</item>
+        <item>"yusefi fruit"</item>
+        <item>"1/2 cup of cubes of medium apple"</item>
+        <item>"1/2 cup of cooked oatmeal"</item>
+        <item>"1/2 milk and 1/2 water"</item>
+        <item>"1 tablespoon chopped walnuts"</item>
+        <item>"A cup of mixed vegetables"</item>
+        <item>"1/4 inch thick slices of french bread"</item>
+        <item>"piece of moth"</item>
+        <item>"two tablespoons of mashed ground"</item>
+        <item>"black beans"</item>
+        <item>"3/4 cup of tomatoes artichoke and noki"</item>
+        <item>"1 ounce of Cheddar cheese"</item>
+        <item>"vegetables salad with chick pease and nuts"</item>
+        <item>"tablespoon of cheese vita you can add drops of balsamic vinegar"</item>
+        <item>"cup of tomato slices and cucumber"</item>
+        <item>"slice of toast"</item>
+        <item>"2 tomatos"</item>
+        <item>"cheddar cheese "</item>
+        <item>"2 cup of mixed vegetables"</item>
+        <item>"1/2 cup of cucumber slice"</item>
+        <item>"1 tablespoon chopped walnuts"</item>
+        <item>"cup of tomatos artichoke and nokki"</item>
+        <item>"cup of mixed vegetables"</item>
+        <item>"1/2 tablespoon of balsamic vinegar or oilve oil"</item>
+        <item>"2 inches whole wheat bread"</item>
+        <item>"1/2 apple medium "</item>
+        <item>"oz chedder cheese"</item>
+        <item>"cup of mixed vegetables"</item>
+        <item>"2/3 cup of tequila mesa"</item>
+        <item>"1/2 loaf of round wheat bread"</item>
+        <item>"2 cup steamed spinach "</item>
+        <item>"spinach cooked"</item>
+        <item>turnips</item>
+        <item>parsley</item>
+        <item>celery</item>
+        <item>"mix quinoa pills"</item>
+        <item>"banana milk"</item>
+        <item>almonds</item>
+        <item>"avocado mashed "</item>
+        <item>"english cookies"</item>
+        <item>"a little lemon"</item>
+        <item>"chips of chili"</item>
+        <item>"slice of toast with walnuts"</item>
+        <item>"slice of toast with walnuts"</item>
+        <item>butter</item>
+        <item>"banana slices"</item>
+        <item>Oats</item>
+        <item>raspberries</item>
+        <item>walnuts</item>
+        <item>conconut</item>
+        <item>pistachios</item>
+        <item>"broasted caluiflower "</item>
+        <item>"conconuts oil and salt"</item>
+        <item>"shea seeds"</item>
+        <item>"one fruit "</item>
+        <item>"1 cup of low-fat coconut milk "</item>
+        <item>"granola"</item>
+        <item>"grape"</item>
+        <item>almonds</item>
+        <item>"Kenwa cooked with parsley and walnuts"</item>
+        <item>"Mushroom with peas, asparagus, thyme"</item>
+        <item>"cakes of cornmeal"</item>
+        <item>"Fried vegetables such as cabbage, cabbage, or onions with onions"</item>
+        <item>"red cabbage slices and a little apple cider vinegar"</item>
+        <item>"sweet potato"</item>
+        <item>cucumber</item>
+        <item>avocado</item>
+        <item>"pea salad"</item>
+        <item>cauliflower</item>
+        <item>leeks</item>
+        <item>mint</item>
+        <item>tomatoes</item>
+        <item>lemon</item>
+        <item>"Wheat pasta"</item>
+        <item>garlic</item>
+        <item>tomatoes</item>
+        <item>lemon</item>
+        <item>"green olives"</item>
+        <item>artichoke</item>
+        <item>"salad of eosin"</item>
+        <item>"fried garlic with onions"</item>
+        <item>rice</item>
+        <item>vegetable</item>
+        <item>"Salad of watercress"</item>
+        <item>"lemon sauce and vinegar"</item>
+        <item>"English cakes"</item>
+        <item>"brown rice"</item>
+        <item>vegetables</item>
+        <item>beans</item>
+        <item>"Lentil soup"</item>
+        <item> "carrot salad"</item>
+        <item>"spinach salad"</item>
+        <item>beans</item>
+        <item> lettuce</item>
+        <item> tomatoes</item>
+        <item>"black olives"</item>
+        <item>"Lentil salad with vinegar, beets, leeks and basil"</item>
+        <item>"spinach salad with balsamic vinegar"</item>
+        <item>"Chickpeas salad with coriander"</item>
+        <item>carrots</item>
+        <item>"black olives"</item>
+        <item>"Vegetable salad"</item>
+        <item>"White beans"</item>
+        <item>"pumpkin seed salad"</item>
+        <item>"sweet potato bread"</item>
+        <item>"a slice of toast"</item>
+        <item>squash</item>
+    </string-array>
+    <string name="title_activity_login_main">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

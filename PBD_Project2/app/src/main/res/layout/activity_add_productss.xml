@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_drinks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back5"
+    tools:context="com.example.asus.pbd_project2.Products.AddProductssActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose" />
+
+        <EditText
+            android:textColorHint="@color/backgroundcolor"
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="4"
+            android:hint="Enter name for Image" />
+
+    </LinearLayout>
+
+
+    <ImageView
+
+        android:background="@color/backgroundcolor"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/buttonUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload" />
+
+
+
+
+        <TextView
+            android:id="@+id/textViewShow"
+            android:textColor="@color/backgroundcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_upload"
+            android:layout_alignTop="@+id/button_upload"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/button_upload"
+            android:gravity="center"
+            android:text="Show Uploads"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toRightOf="@+id/textViewShow"
+
+
+            android:textColor="@color/backgroundcolor"
+            android:background="@color/pink2"
+            android:drawableLeft="@drawable/ic_logout"
+            android:textAllCaps="false"
+            android:onClick="Logout"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

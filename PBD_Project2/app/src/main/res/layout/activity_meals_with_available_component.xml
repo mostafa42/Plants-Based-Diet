@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_meals_with_available_component"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    tools:context="com.example.asus.pbd_project2.Visitor.MealsWithAvailableComponents.mealsWithAvailableComponentActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select First Component"
+        android:textSize="18dp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="50dp"
+        android:id="@+id/title1"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/title1"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/components"
+        android:textAlignment="center"
+        android:id="@+id/first_component" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Second Component"
+    android:textSize="18dp"
+    android:textColor="@color/Red"
+    android:layout_marginTop="20dp"
+    android:id="@+id/title2"
+    android:layout_below="@+id/first_component"
+    android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title2"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:entries="@array/components"
+        android:textAlignment="center"
+        android:id="@+id/second_component" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Second Component"
+        android:textSize="18dp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="20dp"
+        android:id="@+id/title3"
+        android:layout_below="@+id/second_component"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title3"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:entries="@array/components"
+        android:textAlignment="center"
+        android:id="@+id/third_component" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/third_component"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Get Related Meals"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:id="@+id/btnthirdComponent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewShow"
+        android:layout_marginLeft="130dp"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnthirdComponent"
+        android:layout_marginTop="20dp"
+        android:onClick="Logout"/>
+
+
+</RelativeLayout>

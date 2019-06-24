@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#ff4081</color>
+    <color name="colorPrimary22">#ffcd07</color>
+
+    <color name="colorPrimary3">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+
+
+    <color name="green2">#fc29bf00</color>
+    <color name="asfar2">#ffa200</color>
+    <color name="blue2">#0456ad</color>
+    <color name="moaf1">#c155cf</color>
+    <color name="moaf2">#6c1ca5</color>
+    <color name="labani2">#489df7</color>
+
+
+
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="pink2">#931016</color>
+    <color name="pink3">#5f0307</color>
+    <color name="pink4">#85151a</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary2">#004d40</color>
+    <color name="black">#00251a</color>
+    <color name="zety2">#39796b</color>
+    <color name="zety3">#39796b</color>
+    <color name="asfara">#A9d440</color>
+
+
+
+    <color name="colorPrimary">#dd3333</color>
+    <color name="colorPrimaryDark6">#d11616</color>
+    <color name="colorAccent6">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrapeFruit">#b32937</color>
+    <color name="colorGrapeFruitDark">#b43643</color>
+    <color name="colorBitterSweet">#f66143</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#eb8845</color>
+    <color name="colorFlowerDark">#e97729</color>
+    <color name="colorGrass">#7aae42</color>
+    <color name="colorGrassDark">#6c9342</color>
+    <color name="colorBlueJeans">#3688de</color>
+    <color name="colorBlueJeansDark">#5883bd</color>
+    <color name="colorLavander">#a586f2</color>
+    <color name="colorLavanderDark">#7962b2</color>
+    <color name="colorMint">#23c59c</color>
+    <color name="colorMintDark">#36ae8f</color>
+    <color name="colorAqua">#34a6ce</color>
+    <color name="colorAquaDark">#2685a7</color>
+    <color name="colorPinkRose">#de62a8</color>
+    <color name="colorPinkRoseDark">#ae5389</color>
+
+
+    <!-- My Colors -->
+
+    <color name="titlesOfSplash">#a3230c</color>
+    <color name="Bloack">#000</color>
+
+    <color name="postBackground">#f2eeee</color>
+    <color name="ActivityBackground">#ede4e4</color>
+    <color name="HintText">#0fae29</color>
+    <color name="btnBackground">#bebbbb</color>
+    <color name="btnTexts">#ffffff</color>
+    <color name="TitleBackground">#999898</color>
+    <color name="Black">#000000</color>
+
+    <color name="Red">#ff0000</color>
+    <color name="titles">#a3230c</color>
+
+</resources>

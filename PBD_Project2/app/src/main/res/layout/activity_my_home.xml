@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back3"
+    android:id="@+id/activity_my_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.pbd_project2.My_Dashboard.MyHomeActivity">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:paddingTop="100dp"
+            android:text="Plant"
+            android:autoSizeMaxTextSize="400dp"
+            android:textSize="40dp"
+            android:gravity="center"
+           android:fontFamily="?android:attr/candidatesTextStyleSpans"
+            android:id="@+id/txthome2"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="42dp"
+
+            android:text="Based Diet"
+
+            android:gravity="center"
+            android:id="@+id/txthome3"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text=" It Can Help people Improve Your health and Lose Weight . It's based on fruits,vegetables, whole grains, legumes, nuts and seeds...."
+
+            android:gravity="center"
+            android:id="@+id/txthome"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.68" />
+        <LinearLayout
+            android:paddingTop="95dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/login"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Log In "
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundcolor"
+                android:layout_marginEnd="0dp"
+                android:background="@color/pink2"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/signin"
+                android:textColor="@color/backgroundcolor"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Sign In"
+                android:background="@color/zety2"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/postBackground"
+        android:textSize="15sp"
+        android:id="@+id/action"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action"
+        android:layout_marginLeft="10dp"
+        android:text="Date :"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/dateHeader"/>
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action"
+        android:layout_toRightOf="@id/dateHeader"
+        android:layout_marginLeft="0dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_marginTop="21dp"
+        android:id="@+id/dateValue"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dateValue"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="100dp"
+        android:text="Time : "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/timeHeader"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/timeHeader"
+        android:layout_below="@+id/action"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:id="@+id/timeValue"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/timeValue"
+        android:background="@color/Red"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</RelativeLayout>

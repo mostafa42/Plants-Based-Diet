@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Username"
+            android:layout_marginLeft="140dp"
+            android:textSize="20dp"
+            android:id="@+id/username"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/Red" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/post_content_edit_text"
+        android:textColor="@color/HintText"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/title"
+        android:background="@drawable/custom_create_post_default"
+        android:inputType="text|textMultiLine"
+        android:layout_marginTop="4dp"
+        android:gravity="top"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/pink2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/comment_section"
+        android:background="@drawable/custom_create_post_default">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/show_comments_btn"
+            android:background="@drawable/show_comments_icon"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:hint="Write Your Comment"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:id="@+id/comment_container"
+            android:textStyle="bold"
+            android:textColor="@color/HintText"
+            android:textColorHint="@color/HintText"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_create_post_default"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/send_btn"
+            android:background="@drawable/send_icon"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_create_post_default"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

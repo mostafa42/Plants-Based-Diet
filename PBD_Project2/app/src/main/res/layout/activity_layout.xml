@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.pbd_project2.My_Dashboard.LayoutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:background="@drawable/pic16"
+                android:textAlignment="center"
+                android:text="PLANET BASED DIET "
+                android:textSize="24sp"
+                android:gravity="bottom"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/textView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/pink3"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/foodlogo"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/pink4"
+                        android:text="Food"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBitterSweet"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/log1"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorBitterSweetDark"
+                        android:text="Drinks"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorFlower"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sweetlogo"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorFlowerDark"
+                        android:text="Sweet food"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrass"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_calc"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorGrassDark"
+                        android:text="Food cal"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueJeans"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_calc"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorBlueJeansDark"
+                        android:text="Frut Cal"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorLavander"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_plan"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorLavanderDark"
+                        android:text="Make Plan"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorMint"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/restaurant__"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorMintDark"
+                        android:text="Restaurants"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorAqua"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/clnic"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorAquaDark"
+                        android:text="Clinics"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorPinkRose"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon1"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorPinkRoseDark"
+                        android:text="Diseases"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorMint"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/available"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorMintDark"
+                        android:text="Products"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear11"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorAqua"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/clnic"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorAquaDark"
+                        android:text="Tips"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear12"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorPinkRose"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_rate"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorPinkRoseDark"
+                        android:text="Feedback"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+
+            <!-- Fourth Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+             <LinearLayout
+                   android:id="@+id/linear13"
+                   android:layout_width="0dp"
+                   android:layout_height="120dp"
+                   android:layout_weight="1"
+                   android:layout_margin="2dp"
+                   android:orientation="vertical"
+                   android:background="@color/colorPinkRose"
+                   >
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:layout_marginTop="20dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/available"
+                       android:tint="@color/colorWhite"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:padding="8dp"
+                       android:layout_marginTop="30dp"
+                       android:background="@color/colorPinkRoseDark"
+                       android:text="Available Component"
+                       android:textSize="13sp"
+                       android:textAlignment="center"
+                       android:textColor="@color/colorWhite"
+                       />
+
+               </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear14"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorPinkRose"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_post"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPinkRoseDark"
+                    android:text="Posts"
+                    android:textSize="13sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear15"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorPinkRose"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_history"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPinkRoseDark"
+                    android:text="History"
+                    android:textSize="13sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+            <!-- End Third Row-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

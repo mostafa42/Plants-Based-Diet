@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dinner_listview" type="id" />
+    <item name="username_et" type="id" />
+    <item name="lunch_listview" type="id" />
+    <item name="lunch_listview2" type="id" />
+    <item name="fullname_et" type="id" />
+    <item name="phone_et" type="id" />
+    <item name="password_et" type="id">password_et</item>
+</resources>
